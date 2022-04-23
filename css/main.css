@@ -1,0 +1,151 @@
+main .hero {
+    position: relative;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto, 1fr);
+    gap: 5px;
+    
+}
+
+main .title {
+    top: 20%;
+    left: 15%;
+    margin-bottom: 10px;
+    width: 401px;
+    height: 208px;
+    font-size: 60px;
+}
+
+main .title div {
+    font-weight: 700;
+    
+    color: #313131;
+    
+    padding: 5px;
+}
+
+.title .right {
+    position: absolute;
+    top: 24%;
+    left: 12%;
+    
+}
+
+main .title span {
+    position: absolute;
+    top: 28%;
+    font-size: 60px;
+    color: #ddd;
+   
+}
+
+.hero .paragraphy {
+    position: absolute;
+    top: 45%;
+    left: 15%;
+    color: #313131;
+    font-size: 10px;
+    
+    
+}
+
+.paragraphy .paragraphy-one {
+    width: 468px;
+    height: 25px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.paragraphy .paragraphy-second {
+    width: 468px;
+    height: 75px;
+    font-weight: 400;
+    
+}
+
+.df{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 65%;
+    left: 15%;
+}
+
+.input-text {
+   
+    width: 200px;
+    padding: 5px;
+    background: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 13px;
+    color: #000000;
+}
+
+ .start {
+  
+    width: 90px;
+    color: #ffffff;
+    padding: 5px;
+    background: #313131;
+    border-radius: 5px;
+    box-shadow: 0px 100px 80px rgba(49, 49, 49, 0.1), 0px 64.8148px 46.8519px rgba(49, 49, 49, 0.0759259),
+        0px 38.5185px 25.4815px rgba(49, 49, 49, 0.0607407), 0px 20px 13px rgba(49, 49, 49, 0.05),
+        0px 8.14815px 6.51852px rgba(49, 49, 49, 0.0392593), 0px 1.85185px 3.14815px rgba(49, 49, 49, 0.0240741);
+}
+
+.hero .vector-1 {
+    position: absolute;
+    top: 1%;
+    right: 45%;
+    
+}
+
+.hero .vector-2 {
+    position: absolute;
+    top: -40%;
+    right: 12%;
+}
+
+.hero .image-container {
+    padding: inherit;
+    top: 0;
+    left: 0;
+}
+
+.hero .shape {
+    position: relative;
+    top: -56%;
+    right: -52%;
+    width: 90%;
+    height: 250px;
+    
+}
+
+.hero .img-8 {
+    position: absolute;
+    top: -5%;
+    right: 28%;
+    max-width: 20%;
+    
+}
+
+main .hero img {
+    position: absolute;
+    top: 15%;
+    right: 16%;
+    max-width: 20%;
+}
+
+main .hero .description {
+    position: absolute;
+    width: 401px;
+    height: 208px;
+    top: 30%;
+    left: 10%;
+    margin: 0;
+    padding: 0;
+}
