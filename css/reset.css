@@ -7,22 +7,13 @@
 }
 
 body{
-    background-color: #eee;
-}
-
-
-
-.body-container {
-    max-width: 80%;
-    margin: 0 auto;
     background-color: #fff;
-    font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+    font-family: 'Poppins',sans-serif;
 }
 
 a {
     text-decoration: none;
 }
 
-img{
-    max-width: 100%;
-}
+

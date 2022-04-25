@@ -1,143 +1,3 @@
-main .hero {
-    position: relative;
-}
-
-.container {
-    display: grid;
-    grid-template-columns: repeat(auto, 1fr);
-    gap: 5px;
-}
-
-main .title {
-    top: 20%;
-    left: 15%;
-    margin-bottom: 10px;
-    width: 401px;
-    height: 208px;
-    font-size: 60px;
-}
-
-main .title div {
-    font-weight: 700;
-
-    color: #313131;
-
-    padding: 5px;
-}
-
-.title .right {
-    position: absolute;
-    top: 24%;
-    left: 12%;
-}
-
-main .title span {
-    position: absolute;
-    top: 28%;
-    font-size: 60px;
-    color: #ddd;
-}
-
-.hero .paragraphy {
-    position: absolute;
-    top: 45%;
-    left: 15%;
-    color: #313131;
-    font-size: 10px;
-}
-
-.paragraphy .paragraphy-one {
-    width: 468px;
-    height: 25px;
-    font-weight: 700;
-    margin-bottom: 8px;
-}
-
-.paragraphy .paragraphy-second {
-    width: 468px;
-    height: 75px;
-    font-weight: 400;
-}
-
-.df {
-    display: flex;
-    align-items: center;
-    position: absolute;
-    top: 65%;
-    left: 15%;
-}
-
-.input-text {
-    width: 200px;
-    padding: 5px;
-    background: #ffffff;
-    border: 1px solid #000000;
-    border-radius: 5px;
-    font-weight: 400;
-    font-size: 13px;
-    color: #000000;
-}
-
-.start {
-    width: 90px;
-    color: #ffffff;
-    padding: 5px;
-    background: #313131;
-    border-radius: 5px;
-    box-shadow: 0px 100px 80px rgba(49, 49, 49, 0.1), 0px 64.8148px 46.8519px rgba(49, 49, 49, 0.0759259),
-        0px 38.5185px 25.4815px rgba(49, 49, 49, 0.0607407), 0px 20px 13px rgba(49, 49, 49, 0.05),
-        0px 8.14815px 6.51852px rgba(49, 49, 49, 0.0392593), 0px 1.85185px 3.14815px rgba(49, 49, 49, 0.0240741);
-}
-
-.hero .vector-1 {
-    position: absolute;
-    top: 1%;
-    right: 45%;
-}
-
-.hero .vector-2 {
-    position: absolute;
-    top: -40%;
-    right: 12%;
-}
-
-.hero .image-container {
-    padding: inherit;
-    top: 0;
-    left: 0;
-}
-
-.hero .shape {
-    position: relative;
-    top: -56%;
-    right: -52%;
-    width: 90%;
-    height: 240px;
-}
-
-.hero .img-8 {
-    position: absolute;
-    top: -5%;
-    right: 28%;
-    max-width: 20%;
-}
-
-main .hero img {
-    position: absolute;
-    top: 15%;
-    right: 16%;
-    max-width: 20%;
-}
-
-main .hero .description {
-    position: absolute;
-    width: 401px;
-    height: 208px;
-    top: 30%;
-    left: 10%;
-    margin: 0;
-    padding: 0;
-}
 
 .about {
     position: relative;
@@ -191,4 +51,249 @@ main .hero .description {
     font-weight: 400;
     font-size: 18px;
     color: #5f5f5f;
+}
+
+.about-us-image {
+    position: relative;
+    margin-top: 140px;
+    left: -15%;
+}
+
+.about-us-image .df-us {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: -3%;
+    left: 22%;
+}
+
+.about-us-image .df-us img {
+    max-width: 80%;
+    border-radius: 200px 0px 0px 0px;
+}
+
+.about-us-image .df-us .shape {
+    max-width: 80%;
+    position: absolute;
+    width: 512px;
+    height: 540px;
+    left: -4%;
+    top: 8%;
+
+    border: 1px solid #313131;
+    box-sizing: border-box;
+    border-radius: 200px 0px 0px 0px;
+}
+
+.about-us-image .right-title {
+    position: absolute;
+    width: 391px;
+    height: 82px;
+    right: -66%;
+    top: 10%;
+    font-weight: 400;
+    font-size: 55px;
+    color: #313131;
+}
+
+.about-us-image .df-us p {
+    position: absolute;
+    width: 418px;
+    height: 75px;
+    right: -75%;
+    top: 26%;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.2;
+    color: #5f5f5f;
+    line-height: 1.5;
+}
+
+.about-us-image .df-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.about-us-image .df-bottom p {
+    position: absolute;
+    top: 110%;
+    left: 0;
+    max-width: 80%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #5f5f5f;
+    text-align: justify;
+}
+
+.about-us-image .df-bottom img {
+    position: absolute;
+    top: 80%;
+    right: 80;
+    max-width: 80%;
+    border-radius: 0px 0px 200px 0px;
+}
+
+.about-us-image .df-bottom .bottom-shape {
+    max-width: 80%;
+    position: absolute;
+    width: 586px;
+    height: 650px;
+    right: -83%;
+    top: 82%;
+    border: 1px solid #313131;
+    box-sizing: border-box;
+    border-radius: 0px 0px 200px 0px;
+}
+
+.bottom-dots {
+    width: 158.62px;
+    height: 184px;
+    margin-top: -80px;
+    margin-left: 20px;
+}
+
+.df-work {
+    margin-top: 41px;
+    margin-left: 150px;
+    padding: 10px;
+}
+
+.df-work .work-title {
+    width: 437px;
+    height: 82px;
+    font-weight: 400;
+    font-size: 55px;
+    color: #313131;
+}
+
+.df-work p {
+    width: 506px;
+    height: 75px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #5f5f5f;
+    line-height: 1.5;
+}
+
+.df-work .account {
+    margin-top: 40px;
+    width: 197px;
+    height: 58px;
+    color: #ffffff;
+    background: #313131;
+    box-shadow: 0px 100px 80px rgba(49, 49, 49, 0.1), 0px 64.8148px 46.8519px rgba(49, 49, 49, 0.0759259),
+        0px 38.5185px 25.4815px rgba(49, 49, 49, 0.0607407), 0px 20px 13px rgba(49, 49, 49, 0.05),
+        0px 8.14815px 6.51852px rgba(49, 49, 49, 0.0392593), 0px 1.85185px 3.14815px rgba(49, 49, 49, 0.0240741);
+    border-radius: 5px;
+}
+
+.df-work .help {
+    width: 197px;
+    height: 58px;
+    margin-left: 30px;
+    color: #000000;
+    background: #ffffff;
+    border-radius: 5px;
+}
+
+.df-work .vertical {
+    width: 0px;
+    height: 345px;
+    margin-top: -230px;
+    margin-left: 530px;
+    border: 1px solid #e0e0e0;
+}
+
+.df-work .right-container {
+    width: 330px;
+    height: 345px;
+    margin-left: 550px;
+    margin-top: -350px;
+    padding: 10px;
+}
+
+.df-work .right-container .top-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+}
+.df-work .right-container .top-container p {
+    font-weight: 700;
+    font-size: 14px;
+    color: #313131;
+    opacity: 0.88;
+}
+
+.right-container .top-container span {
+    margin-top: -60px;
+}
+
+.right-container .middle-container {
+    width: 330px;
+    height: 180px;
+    background: #ffffff;
+    box-shadow: 0px 20px 95px rgba(201, 203, 204, 0.3);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.middle-container .middle-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.middle-container .middle-top p {
+    width: 209px;
+    height: 23px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #313131;
+    
+}
+
+.middle-container .middle-top span {
+    margin-right: 20px;
+    opacity: 0.8;
+    border-radius: 20px;
+}
+
+.middle-container .container-second {
+    width: 382px;
+    height: 92px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.2;
+    color: #5f5f5f;
+    text-align: justify;
+    max-width: 85%;
+    margin-top: 30px;
+}
+
+.df-work .right-container .bottom-container {
+    width: 330px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.bottom-container p {
+    width: 177px;
+    height: 23px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #313131;
+    opacity: 0.8;
+}
+
+.bottom-container span {
+    margin-right: 14px;
+    width: 20px;
+    height: 2px;
+    font-size: 14px;
+    color: #313131;
 }
